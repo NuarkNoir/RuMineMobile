@@ -10,6 +10,4 @@ tar xzf android-sdk.tgz
 export ANDROID_HOME=$PWD/android-sdk-linux
 export PATH=${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools
 
-sudo apt-get install expect
-chmod +x $PWD/.travis_install_android_sdk.sh
-$PWD/.travis_install_android_sdk.sh
+ls -i
