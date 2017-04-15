@@ -1,21 +1,4 @@
 language: java
 sudo: required
 jdk: oraclejdk8
-
-before_install:
-  - chmod +x $PWD/.travis_install_android.sh
-  - $PWD/.travis_install_android.sh
-
-  - export ANDROID_HOME=$PWD/android-sdk-linux
-  - export PATH=${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools
-
-  - chmod +x $PWD/.travis_install_android_dependencies.sh
-  - $PWD/.travis_install_android_dependencies.sh
-
-  - chmod +x $PWD/.travis_start_emulator.sh
-  - $PWD/.travis_start_emulator.sh
-  
-  - chmod +x $PWD/.travis_wait_for_emulator.sh
-  - $PWD/.travis_wait_for_emulator.sh
-
-script: mvn install -Pwith-tests
+script: gradle
