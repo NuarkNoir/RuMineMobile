@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nuark.mobile.rumine.MainActivity"
+    android:id="@+id/coordinator">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        fab:srcCompat="@drawable/fab_add"
+        fab:menu_colorNormal="@color/colorAccent">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/mi_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_account"
+            fab:fab_size="mini"
+            fab:fab_label="Авторизация"
+            android:onClick="famHandler"
+            fab:menu_colorNormal="@color/colorPrimary"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/mi_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_account"
+            fab:fab_size="mini"
+            fab:fab_label="Пользователь"
+            android:onClick="famHandler"
+            fab:menu_colorNormal="@color/colorPrimary"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/mi_sendmessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_message"
+            fab:fab_size="mini"
+            fab:fab_label="Отправить сообщение"
+            android:onClick="famHandler"
+            fab:menu_colorNormal="@color/colorPrimary"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:visibility="gone"
+            android:id="@+id/mi_sendugreport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_bugreport"
+            fab:fab_size="mini"
+            fab:fab_label="Отправить багрепорт"
+            android:onClick="famHandler"
+            fab:menu_colorNormal="@color/colorPrimary"/>
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</android.support.design.widget.CoordinatorLayout>

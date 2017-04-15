@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_util_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="B"
+            android:onClick="btnUtilsHandler"/>
+
+        <Button
+            android:id="@+id/btn_util_italic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="I"
+            android:onClick="btnUtilsHandler"/>
+
+        <Button
+            android:id="@+id/btn_util_underline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="U"
+            android:onClick="btnUtilsHandler"/>
+
+        <Button
+            android:id="@+id/btn_util_emoji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="E"
+            android:onClick="btnUtilsHandler"/>
+
+        <Button
+            android:id="@+id/btn_util_undo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Undo"
+            android:onClick="btnUtilsHandler"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="48dp"
+        android:paddingTop="48dp" >
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_weight="1" />
+
+        <ScrollView
+            android:id="@+id/textAreaScroller"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="vertical"
+            android:gravity="center"
+            android:fillViewport="true">
+
+            <EditText
+                android:id="@+id/et_message"
+                android:background="@android:color/transparent"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Введите текст сообщения"
+                android:inputType="textCapSentences|textMultiLine"
+                android:padding="16dp"
+                android:scrollHorizontally="false"
+                android:singleLine="false"
+                android:scrollbars="vertical"
+                android:gravity="top" />
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal" >
+
+        <ProgressBar
+            android:id="@+id/pb_sending"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_send_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Отправить" />
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
