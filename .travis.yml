@@ -1,7 +1,12 @@
 language: android
+sudo: true
 android:
   components:
-    - platform-tools
     - tools
     - build-tools-25.0.2
+    - platform-tools
     - android-25
+    - add-on
+    - extra
+    
+script: ./gradlew assemble
