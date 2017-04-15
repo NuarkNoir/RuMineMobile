@@ -2,5 +2,11 @@ language: java
 sudo: required
 jdk: oraclejdk8
 
+before_install:
+  - chmod +x $PWD/.travis_install_android.sh
+  - $PWD/.travis_install_android.sh
+
+  - export ANDROID_HOME=$PWD/android-sdk-linux
+  - export PATH=${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools
 
 script: mvn install -Pwith-tests
