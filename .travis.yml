@@ -9,4 +9,4 @@ android:
     - add-on
     - extra
     
-script: sudo ./gradlew assemble
+script: sudo sh ./gradlew assemble
