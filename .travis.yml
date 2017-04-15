@@ -9,4 +9,4 @@ android:
     - add-on
     - extra
     
-script: sudo sh ./gradlew assemble
+script: sudo gradle build connectedCheck
