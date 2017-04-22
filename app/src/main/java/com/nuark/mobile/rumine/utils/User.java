@@ -20,7 +20,8 @@ public class User implements Parcelable {
         this.login = login;
         this.password = password;
         this.avatar = avatar;
-        this.link = link;
+        if (!link.contains("http:")) this.link = "http:" + link;
+            else this.link = link;
         this.rep_plus = rep_plus;
         this.rep_minus = rep_minus;
         this.rep_average = rep_average;

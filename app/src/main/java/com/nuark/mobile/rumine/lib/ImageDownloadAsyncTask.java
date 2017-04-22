@@ -38,6 +38,7 @@ public class ImageDownloadAsyncTask extends AsyncTask<Void, Void, Void> {
         if (!Globals.DrawableCache.getDrawableCache().containsKey(source)) {
             try {
                 //Скачиваем картинку в наш кэш
+                System.out.println("Loading " + source);
                 if (!source.contains("http:")) source = "http:" + source;
                 URL url = new URL(source);
                 URLConnection connection = url.openConnection();
@@ -45,16 +46,14 @@ public class ImageDownloadAsyncTask extends AsyncTask<Void, Void, Void> {
 
                 //Drawable drawable = Drawable.createFromStream(is, "src");
 
-                // Если нужно, чтобы рисунки не масштабировались,
-                // закомментируйте строчку выше и расскомментируйте код
-                // ниже.
-
+                // Если нужно, чтобы рисунки масштабировались,
+                // закомментируйте строчку ниже и расскомментируйте код
+                // выше.
 
 				Bitmap bmp = BitmapFactory.decodeStream(is);
 				DisplayMetrics dm = MainActivity.cont.getResources().getDisplayMetrics();
 				bmp.setDensity(dm.densityDpi);
                 Drawable drawable = new BitmapDrawable(MainActivity.cont.getResources(), bmp);
-
 
                 is.close();
 

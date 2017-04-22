@@ -58,7 +58,7 @@ public final class LoginInAPP {
                 cookies = response2.cookies();
                 nick = d.select(".loginname a").text();
                 avatar = uri + d.select(".lavatar img").attr("src");
-                link = d.select(".loginname a").attr("href");
+                link = "http:" + d.select(".loginname a").attr("href");
                 Connection connection4 = HttpConnection.connect(link).cookies(response2.cookies()).ignoreHttpErrors(true).timeout(10000);
                 Connection.Response response4 = connection4.execute();
                 parse(response4.parse());
@@ -84,16 +84,13 @@ public final class LoginInAPP {
                         cnt_likes,
                         cookies
                 ));
-                //Globals.CurrentUser.createCurrentUser(nick, login, pass, avatar, link, cookies);
-                //Globals.CurrentUser.appedFullInfo();
             } else {
                 System.out.println("Авторизация неудачна!");
                 isLogedIn = false;
                 cookies = null;
             }
         } catch (IOException e) {
-            System.out.println("Произошла ошибка.");
-            System.out.println(e.getLocalizedMessage());
+            System.out.println("Произошла ошибка:" + e.getLocalizedMessage());
         }
     }
 

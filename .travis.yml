@@ -1,12 +1,13 @@
 language: android
 sudo: true
-android:
-  components:
-    - tools
-    - build-tools-25.0.2
-    - platform-tools
-    - android-25
-    - add-on
-    - extra
-    
-script: sudo gradle build connectedCheck
+
+before_install:
+    - sudo apt-get update -qq
+    - if [ `uname -m` = x86_64 ]; then sudo apt-get install -o Dpkg::Options::="--force-confold" -qq --force-yes libgd2-xpm ia32-libs ia32-libs-multiarch; fi
+    - wget http://dl.google.com/android/android-sdk_r21.1-linux.tgz
+    - tar xzf android-sdk_r21.1-linux.tgz
+    - export ANDROID_HOME=$PWD/android-sdk-linux
+    - export PATH=${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools
+    - android update sdk --filter platform-tools,android-16,android-17,extra-android-support --no-ui --force
+
+install: mvn clean install --quiet -DskipTests=true

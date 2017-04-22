@@ -26,7 +26,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7bb8dbc-34a0-4ae0-865d-a36010a278e4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RuMineMobile.iml" afterPath="$PROJECT_DIR$/RuMineMobile.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/lib/ImageDownloadAsyncTask.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/lib/ImageDownloadAsyncTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/lib/LoginInAPP.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/lib/LoginInAPP.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/utils/MessagesListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/utils/MessagesListAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/utils/User.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/utils/User.java" />
     </list>
     <ignored path="RuMine Mobile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,7 +66,18 @@
     <favorites_list name="RuMine Mobile" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,6 +90,431 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleExtensions">
+    <project path="$PROJECT_DIR$">
+      <sub-project>
+        <project path="$PROJECT_DIR$">
+          <extensions>
+            <ext name="ext" type="org.gradle.api.internal.plugins.DefaultExtraPropertiesExtension" />
+            <task name="projects" type="org.gradle.api.tasks.diagnostics.ProjectReportTask">Displays the sub-projects of root project 'RuMineMobile'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="resolveDebugDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="validateSigningDebugAndroidTest" type="com.android.build.gradle.internal.tasks.ValidateSigningTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolveDebugUnitTestDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformClassesWithDexBuilderForDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleReleaseUnitTest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prepareDebugDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processReleaseJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateReleaseAssets">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="lintDebug" type="com.android.build.gradle.tasks.Lint">Runs lint on the Debug build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="assembleDebugUnitTest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="model" type="org.gradle.api.reporting.model.ModelReport">Displays the configuration model of root project 'RuMineMobile'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="mockableAndroidJar" type="com.android.build.gradle.internal.tasks.MockableAndroidJarTask">Creates a version of android.jar that's suitable for unit tests.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="tasks" type="org.gradle.api.tasks.diagnostics.TaskReportTask">Displays the tasks runnable from root project 'RuMineMobile' (some of the displayed tasks may belong to subprojects).&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="compileDebugSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="init" type="org.gradle.buildinit.tasks.InitBuild">Initializes a new Gradle build. [incubating]&lt;p&gt;&lt;i&gt;Task group: Build Setup&lt;i&gt;</task>
+            <task name="incrementalDebugJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="deviceCheck">Runs all device checks using Device Providers and Test Servers.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="resolveReleaseDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="dependencies" type="org.gradle.api.tasks.diagnostics.DependencyReportTask">Displays all dependencies declared in root project 'RuMineMobile'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="processDebugResources" type="com.android.build.gradle.tasks.ProcessAndroidResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="lint" type="com.android.build.gradle.tasks.Lint">Runs lint on all variants.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="packageDebug" type="com.android.build.gradle.tasks.PackageApplication">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileReleaseNdk" type="com.android.build.gradle.tasks.NdkCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateDebugResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileDebugJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="buildNeeded">Assembles and tests this project and all projects it depends on.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="generateDebugAndroidTestBuildConfig" type="com.android.build.gradle.tasks.GenerateBuildConfig">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processDebugUnitTestJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="testReleaseUnitTest" type="com.android.build.gradle.tasks.factory.AndroidUnitTest">Run unit tests for the release build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="cleanBuildCache" type="com.android.build.gradle.tasks.CleanBuildCache">Deletes the build cache directory.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="compileDebugAndroidTestShaders" type="com.android.build.gradle.tasks.ShaderCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformClassesWithPreDexForRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeDebugShaders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileDebugAndroidTestJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="components" type="org.gradle.api.reporting.components.ComponentReport">Displays the components produced by root project 'RuMineMobile'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="compileReleaseRenderscript" type="com.android.build.gradle.tasks.RenderscriptCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleDebug">Assembles all Debug builds.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="processDebugAndroidTestManifest" type="com.android.build.gradle.tasks.ProcessTestManifest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="handleDebugMicroApk" type="com.android.build.gradle.internal.tasks.GenerateApkDataTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileDebugUnitTestJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForReleaseUnitTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="cleanIdeaModule" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preDebugAndroidTestBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processDebugAndroidTestJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processReleaseUnitTestJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="javaPreCompileDebugAndroidTest" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="uninstallRelease" type="com.android.build.gradle.internal.tasks.UninstallTask">Uninstalls the Release build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="compileReleaseShaders" type="com.android.build.gradle.tasks.ShaderCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeReleaseResources" type="com.android.build.gradle.tasks.MergeResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateDebugAndroidTestSources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prepareDebugAndroidTestDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalDebugAndroidTestJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="checkReleaseManifest" type="com.android.build.gradle.internal.tasks.CheckManifest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="javaPreCompileDebugUnitTest" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileDebugAndroidTestSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="mergeReleaseJniLibFolders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prepareReleaseDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformDexWithDexForRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processReleaseResources" type="com.android.build.gradle.tasks.ProcessAndroidResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="deviceAndroidTest">Installs and runs instrumentation tests using all Device Providers.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="mergeDebugAndroidTestAssets" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processReleaseManifest" type="com.android.build.gradle.tasks.MergeManifests">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolveDebugAndroidTestDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="uninstallDebugAndroidTest" type="com.android.build.gradle.internal.tasks.UninstallTask">Uninstalls the android (on device) tests for the Debug build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="dependencyInsight" type="org.gradle.api.tasks.diagnostics.DependencyInsightReportTask">Displays the insight into a specific dependency in root project 'RuMineMobile'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="generateReleaseSources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalReleaseUnitTestJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preReleaseBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assemble">Assembles all variants of all applications and secondary packages.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="cleanIdeaProject" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalDebugUnitTestJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalReleaseJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="help" type="org.gradle.configuration.Help">Displays a help message.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="compileReleaseUnitTestSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="extractJava8LangSupportJar" type="com.android.build.gradle.internal.tasks.ExtractJava8LangSupportJar">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="installDebugAndroidTest" type="com.android.build.gradle.internal.tasks.InstallVariantTask">Installs the android (on device) tests for the Debug build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="transformClassesWithDexBuilderForDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeDebugAssets" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="javaPreCompileReleaseUnitTest" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolveReleaseUnitTestDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="javaPreCompileRelease" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="connectedCheck">Runs all device checks on currently connected devices.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="connectedDebugAndroidTest" type="com.android.build.gradle.internal.tasks.DeviceProviderInstrumentTestTask">Installs and runs the tests for debug on connected devices.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="transformDexArchiveWithDexMergerForDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="uninstallAll">Uninstall all applications.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="transformNativeLibsWithMergeJniLibsForDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleAndroidTest">Assembles all the Test applications.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="processDebugAndroidTestResources" type="com.android.build.gradle.tasks.ProcessAndroidResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="packageRelease" type="com.android.build.gradle.tasks.PackageApplication">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="validateSigningDebug" type="com.android.build.gradle.internal.tasks.ValidateSigningTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileDebugAidl" type="com.android.build.gradle.tasks.AidlCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeDebugResources" type="com.android.build.gradle.tasks.MergeResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="wrapper" type="org.gradle.api.tasks.wrapper.Wrapper">Generates Gradle wrapper files. [incubating]&lt;p&gt;&lt;i&gt;Task group: Build Setup&lt;i&gt;</task>
+            <task name="preDebugUnitTestBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileLint" type="com.android.build.gradle.internal.tasks.LintCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateDebugAndroidTestResValues" type="com.android.build.gradle.tasks.GenerateResValues">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformNativeLibsWithMergeJniLibsForDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeReleaseShaders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="androidDependencies" type="com.android.build.gradle.internal.tasks.DependencyReportTask">Displays the Android dependencies of the project.&lt;p&gt;&lt;i&gt;Task group: Android&lt;i&gt;</task>
+            <task name="compileDebugAndroidTestNdk" type="com.android.build.gradle.tasks.NdkCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileDebugUnitTestSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="transformNativeLibsWithMergeJniLibsForRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateDebugSources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeDebugAndroidTestJniLibFolders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="extractProguardFiles" type="com.android.build.gradle.internal.tasks.ExtractProguardFiles">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleDebugAndroidTest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processDebugJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateDebugAndroidTestAssets">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileReleaseJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="jarReleaseClasses" type="com.android.build.gradle.tasks.AndroidJarTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prepareReleaseUnitTestDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="test">Run unit tests for all variants.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="compileDebugNdk" type="com.android.build.gradle.tasks.NdkCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeDebugAndroidTestResources" type="com.android.build.gradle.tasks.MergeResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preReleaseUnitTestBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateDebugResValues" type="com.android.build.gradle.tasks.GenerateResValues">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="check">Runs all checks.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="javaPreCompileDebug" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="testDebugUnitTest" type="com.android.build.gradle.tasks.factory.AndroidUnitTest">Run unit tests for the debug build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="connectedAndroidTest">Installs and runs instrumentation tests for all flavors on connected devices.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="jarDebugClasses" type="com.android.build.gradle.tasks.AndroidJarTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="installDebug" type="com.android.build.gradle.internal.tasks.InstallVariantTask">Installs the Debug build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="preBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="ideaProject" type="org.gradle.plugins.ide.idea.GenerateIdeaProject">Generates IDEA project file (IPR)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileReleaseSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="compileReleaseUnitTestJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileDebugShaders" type="com.android.build.gradle.tasks.ShaderCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileReleaseAidl" type="com.android.build.gradle.tasks.AidlCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="lintRelease" type="com.android.build.gradle.tasks.Lint">Runs lint on the Release build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="buildDependents">Assembles and tests this project and all projects that depend on it.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="generateDebugAssets">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="idea">Generates IDEA project files (IML, IPR, IWS)&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
+            <task name="transformDexArchiveWithDexMergerForDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="dependentComponents" type="org.gradle.api.reporting.dependents.DependentComponentsReport">Displays the dependent components of components in root project 'RuMineMobile'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="buildEnvironment" type="org.gradle.api.tasks.diagnostics.BuildEnvironmentReportTask">Displays all buildscript dependencies declared in root project 'RuMineMobile'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="checkDebugManifest" type="com.android.build.gradle.internal.tasks.CheckManifest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeDebugJniLibFolders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="sourceSets" type="com.android.build.gradle.internal.tasks.SourceSetsTask">Prints out all the source sets defined in this project.&lt;p&gt;&lt;i&gt;Task group: Android&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForDebugUnitTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeReleaseAssets" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileDebugRenderscript" type="com.android.build.gradle.tasks.RenderscriptCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateReleaseBuildConfig" type="com.android.build.gradle.tasks.GenerateBuildConfig">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prepareDebugUnitTestDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="ideaModule" type="org.gradle.plugins.ide.idea.GenerateIdeaModule">Generates IDEA module files (IML)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="cleanIdea">Cleans IDEA project files (IML, IPR)&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
+            <task name="generateReleaseResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="lintVitalRelease" type="com.android.build.gradle.tasks.Lint">Runs lint on just the fatal issues in the release build.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="ideaWorkspace" type="org.gradle.plugins.ide.idea.GenerateIdeaWorkspace">Generates an IDEA workspace file (IWS)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="uninstallDebug" type="com.android.build.gradle.internal.tasks.UninstallTask">Uninstalls the Debug build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="signingReport" type="com.android.build.gradle.internal.tasks.SigningReportTask">Displays the signing info for each variant.&lt;p&gt;&lt;i&gt;Task group: Android&lt;i&gt;</task>
+            <task name="compileDebugAndroidTestAidl" type="com.android.build.gradle.tasks.AidlCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeDebugAndroidTestShaders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="clean" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preDebugBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateDebugBuildConfig" type="com.android.build.gradle.tasks.GenerateBuildConfig">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="build">Assembles and tests this project.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="assembleRelease">Assembles all Release builds.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="compileDebugAndroidTestRenderscript" type="com.android.build.gradle.tasks.RenderscriptCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateDebugAndroidTestResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processDebugManifest" type="com.android.build.gradle.tasks.MergeManifests">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="packageDebugAndroidTest" type="com.android.build.gradle.tasks.PackageApplication">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateReleaseResValues" type="com.android.build.gradle.tasks.GenerateResValues">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="properties" type="org.gradle.api.tasks.diagnostics.PropertyReportTask">Displays the properties of root project 'RuMineMobile'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="cleanIdeaWorkspace" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <conf name="classpath" scriptClasspath="true" />
+          </extensions>
+        </project>
+        <project path="$PROJECT_DIR$/app">
+          <extensions parent="$PROJECT_DIR$">
+            <ext name="ext" type="org.gradle.api.internal.plugins.DefaultExtraPropertiesExtension" />
+            <ext name="defaultArtifacts" type="org.gradle.api.internal.plugins.DefaultArtifactPublicationSet" />
+            <ext name="reporting" type="org.gradle.api.reporting.ReportingExtension" />
+            <ext name="android" type="com.android.build.gradle.AppExtension" />
+            <prop name="archivesBaseName" />
+            <task name="projects" type="org.gradle.api.tasks.diagnostics.ProjectReportTask">Displays the sub-projects of project ':app'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="resolveDebugDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="validateSigningDebugAndroidTest" type="com.android.build.gradle.internal.tasks.ValidateSigningTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolveDebugUnitTestDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformClassesWithDexBuilderForDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleReleaseUnitTest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prepareDebugDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processReleaseJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateReleaseAssets">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="lintDebug" type="com.android.build.gradle.tasks.Lint">Runs lint on the Debug build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="assembleDebugUnitTest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mockableAndroidJar" type="com.android.build.gradle.internal.tasks.MockableAndroidJarTask">Creates a version of android.jar that's suitable for unit tests.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="model" type="org.gradle.api.reporting.model.ModelReport">Displays the configuration model of project ':app'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="tasks" type="org.gradle.api.tasks.diagnostics.TaskReportTask">Displays the tasks runnable from project ':app'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="compileDebugSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="incrementalDebugJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="deviceCheck">Runs all device checks using Device Providers and Test Servers.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="resolveReleaseDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="dependencies" type="org.gradle.api.tasks.diagnostics.DependencyReportTask">Displays all dependencies declared in project ':app'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="processDebugResources" type="com.android.build.gradle.tasks.ProcessAndroidResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="lint" type="com.android.build.gradle.tasks.Lint">Runs lint on all variants.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="packageDebug" type="com.android.build.gradle.tasks.PackageApplication">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileReleaseNdk" type="com.android.build.gradle.tasks.NdkCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateDebugResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileDebugJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="buildNeeded">Assembles and tests this project and all projects it depends on.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="generateDebugAndroidTestBuildConfig" type="com.android.build.gradle.tasks.GenerateBuildConfig">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processDebugUnitTestJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="testReleaseUnitTest" type="com.android.build.gradle.tasks.factory.AndroidUnitTest">Run unit tests for the release build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="cleanBuildCache" type="com.android.build.gradle.tasks.CleanBuildCache">Deletes the build cache directory.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="compileDebugAndroidTestShaders" type="com.android.build.gradle.tasks.ShaderCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformClassesWithPreDexForRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeDebugShaders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileDebugAndroidTestJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="components" type="org.gradle.api.reporting.components.ComponentReport">Displays the components produced by project ':app'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="compileReleaseRenderscript" type="com.android.build.gradle.tasks.RenderscriptCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleDebug">Assembles all Debug builds.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="processDebugAndroidTestManifest" type="com.android.build.gradle.tasks.ProcessTestManifest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="handleDebugMicroApk" type="com.android.build.gradle.internal.tasks.GenerateApkDataTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileDebugUnitTestJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForReleaseUnitTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="cleanIdeaModule" type="org.gradle.api.tasks.Delete">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preDebugAndroidTestBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processDebugAndroidTestJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processReleaseUnitTestJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="javaPreCompileDebugAndroidTest" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="uninstallRelease" type="com.android.build.gradle.internal.tasks.UninstallTask">Uninstalls the Release build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="compileReleaseShaders" type="com.android.build.gradle.tasks.ShaderCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeReleaseResources" type="com.android.build.gradle.tasks.MergeResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateDebugAndroidTestSources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prepareDebugAndroidTestDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalDebugAndroidTestJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="checkReleaseManifest" type="com.android.build.gradle.internal.tasks.CheckManifest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="javaPreCompileDebugUnitTest" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileDebugAndroidTestSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="mergeReleaseJniLibFolders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prepareReleaseDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformDexWithDexForRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processReleaseResources" type="com.android.build.gradle.tasks.ProcessAndroidResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="deviceAndroidTest">Installs and runs instrumentation tests using all Device Providers.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="mergeDebugAndroidTestAssets" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processReleaseManifest" type="com.android.build.gradle.tasks.MergeManifests">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolveDebugAndroidTestDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="uninstallDebugAndroidTest" type="com.android.build.gradle.internal.tasks.UninstallTask">Uninstalls the android (on device) tests for the Debug build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="dependencyInsight" type="org.gradle.api.tasks.diagnostics.DependencyInsightReportTask">Displays the insight into a specific dependency in project ':app'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="generateReleaseSources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalReleaseUnitTestJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preReleaseBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assemble">Assembles all variants of all applications and secondary packages.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="incrementalDebugUnitTestJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="incrementalReleaseJavaCompilationSafeguard" type="com.android.build.gradle.tasks.factory.IncrementalSafeguard">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="help" type="org.gradle.configuration.Help">Displays a help message.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="compileReleaseUnitTestSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="extractJava8LangSupportJar" type="com.android.build.gradle.internal.tasks.ExtractJava8LangSupportJar">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="installDebugAndroidTest" type="com.android.build.gradle.internal.tasks.InstallVariantTask">Installs the android (on device) tests for the Debug build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="transformClassesWithDexBuilderForDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeDebugAssets" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="javaPreCompileReleaseUnitTest" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="resolveReleaseUnitTestDependencies" type="com.android.build.gradle.internal.tasks.ResolveDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="javaPreCompileRelease" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="connectedCheck">Runs all device checks on currently connected devices.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="connectedDebugAndroidTest" type="com.android.build.gradle.internal.tasks.DeviceProviderInstrumentTestTask">Installs and runs the tests for debug on connected devices.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="transformDexArchiveWithDexMergerForDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="uninstallAll">Uninstall all applications.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="transformNativeLibsWithMergeJniLibsForDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleAndroidTest">Assembles all the Test applications.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="processDebugAndroidTestResources" type="com.android.build.gradle.tasks.ProcessAndroidResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="packageRelease" type="com.android.build.gradle.tasks.PackageApplication">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="validateSigningDebug" type="com.android.build.gradle.internal.tasks.ValidateSigningTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileDebugAidl" type="com.android.build.gradle.tasks.AidlCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeDebugResources" type="com.android.build.gradle.tasks.MergeResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preDebugUnitTestBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileLint" type="com.android.build.gradle.internal.tasks.LintCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateDebugAndroidTestResValues" type="com.android.build.gradle.tasks.GenerateResValues">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformNativeLibsWithMergeJniLibsForDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeReleaseShaders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="androidDependencies" type="com.android.build.gradle.internal.tasks.DependencyReportTask">Displays the Android dependencies of the project.&lt;p&gt;&lt;i&gt;Task group: Android&lt;i&gt;</task>
+            <task name="compileDebugAndroidTestNdk" type="com.android.build.gradle.tasks.NdkCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileDebugUnitTestSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="transformNativeLibsWithMergeJniLibsForRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateDebugSources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeDebugAndroidTestJniLibFolders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="extractProguardFiles" type="com.android.build.gradle.internal.tasks.ExtractProguardFiles">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="assembleDebugAndroidTest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processDebugJavaRes" type="org.gradle.api.tasks.Sync">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateDebugAndroidTestAssets">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileReleaseJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="jarReleaseClasses" type="com.android.build.gradle.tasks.AndroidJarTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prepareReleaseUnitTestDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="test">Run unit tests for all variants.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="compileDebugNdk" type="com.android.build.gradle.tasks.NdkCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeDebugAndroidTestResources" type="com.android.build.gradle.tasks.MergeResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="preReleaseUnitTestBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateDebugResValues" type="com.android.build.gradle.tasks.GenerateResValues">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="check">Runs all checks.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="javaPreCompileDebug" type="com.android.build.gradle.tasks.JavaPreCompileTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="testDebugUnitTest" type="com.android.build.gradle.tasks.factory.AndroidUnitTest">Run unit tests for the debug build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="connectedAndroidTest">Installs and runs instrumentation tests for all flavors on connected devices.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="jarDebugClasses" type="com.android.build.gradle.tasks.AndroidJarTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="installDebug" type="com.android.build.gradle.internal.tasks.InstallVariantTask">Installs the Debug build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="preBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForRelease" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileReleaseSources">&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="compileReleaseUnitTestJavaWithJavac" type="com.android.build.gradle.tasks.factory.AndroidJavaCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileDebugShaders" type="com.android.build.gradle.tasks.ShaderCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForDebug" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileReleaseAidl" type="com.android.build.gradle.tasks.AidlCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="lintRelease" type="com.android.build.gradle.tasks.Lint">Runs lint on the Release build.&lt;p&gt;&lt;i&gt;Task group: verification&lt;i&gt;</task>
+            <task name="buildDependents">Assembles and tests this project and all projects that depend on it.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="generateDebugAssets">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="idea">Generates IDEA project files (IML, IPR, IWS)&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
+            <task name="transformDexArchiveWithDexMergerForDebugAndroidTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="dependentComponents" type="org.gradle.api.reporting.dependents.DependentComponentsReport">Displays the dependent components of components in project ':app'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="buildEnvironment" type="org.gradle.api.tasks.diagnostics.BuildEnvironmentReportTask">Displays all buildscript dependencies declared in project ':app'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <task name="checkDebugManifest" type="com.android.build.gradle.internal.tasks.CheckManifest">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeDebugJniLibFolders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="sourceSets" type="com.android.build.gradle.internal.tasks.SourceSetsTask">Prints out all the source sets defined in this project.&lt;p&gt;&lt;i&gt;Task group: Android&lt;i&gt;</task>
+            <task name="transformResourcesWithMergeJavaResForDebugUnitTest" type="com.android.build.gradle.internal.pipeline.TransformTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeReleaseAssets" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="compileDebugRenderscript" type="com.android.build.gradle.tasks.RenderscriptCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateReleaseBuildConfig" type="com.android.build.gradle.tasks.GenerateBuildConfig">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="prepareDebugUnitTestDependencies" type="com.android.build.gradle.internal.tasks.PrepareDependenciesTask">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="ideaModule" type="org.gradle.plugins.ide.idea.GenerateIdeaModule">Generates IDEA module files (IML)&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="cleanIdea">Cleans IDEA project files (IML, IPR)&lt;p&gt;&lt;i&gt;Task group: IDE&lt;i&gt;</task>
+            <task name="generateReleaseResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="lintVitalRelease" type="com.android.build.gradle.tasks.Lint">Runs lint on just the fatal issues in the release build.&lt;p&gt;&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="uninstallDebug" type="com.android.build.gradle.internal.tasks.UninstallTask">Uninstalls the Debug build.&lt;p&gt;&lt;i&gt;Task group: Install&lt;i&gt;</task>
+            <task name="signingReport" type="com.android.build.gradle.internal.tasks.SigningReportTask">Displays the signing info for each variant.&lt;p&gt;&lt;i&gt;Task group: Android&lt;i&gt;</task>
+            <task name="compileDebugAndroidTestAidl" type="com.android.build.gradle.tasks.AidlCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="mergeDebugAndroidTestShaders" type="com.android.build.gradle.tasks.MergeSourceSetFolders">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="clean" type="org.gradle.api.tasks.Delete">Deletes the build directory.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="preDebugBuild">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateDebugBuildConfig" type="com.android.build.gradle.tasks.GenerateBuildConfig">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="build">Assembles and tests this project.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="assembleRelease">Assembles all Release builds.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
+            <task name="compileDebugAndroidTestRenderscript" type="com.android.build.gradle.tasks.RenderscriptCompile">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateDebugAndroidTestResources">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="processDebugManifest" type="com.android.build.gradle.tasks.MergeManifests">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="packageDebugAndroidTest" type="com.android.build.gradle.tasks.PackageApplication">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="generateReleaseResValues" type="com.android.build.gradle.tasks.GenerateResValues">&lt;i&gt;Task group: other&lt;i&gt;</task>
+            <task name="properties" type="org.gradle.api.tasks.diagnostics.PropertyReportTask">Displays the properties of project ':app'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
+            <conf name="_debugAndroidTestAnnotationProcessor" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_debugAndroidTestApk" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_debugAndroidTestCompile" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_debugAndroidTestJackPlugin" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_debugAnnotationProcessor" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_debugApk" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_debugCompile" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_debugJackPlugin" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_debugUnitTestAnnotationProcessor" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_debugUnitTestApk" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_debugUnitTestCompile" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_debugUnitTestJackPlugin" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_releaseAnnotationProcessor" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_releaseApk" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_releaseCompile" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_releaseJackPlugin" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_releaseUnitTestAnnotationProcessor" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_releaseUnitTestApk" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_releaseUnitTestCompile" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="_releaseUnitTestJackPlugin" visible="false">## Internal use, do not manually configure ##</conf>
+            <conf name="androidJacocoAgent" visible="false">The Jacoco agent to use to get coverage data.</conf>
+            <conf name="androidJacocoAnt" visible="false">The Jacoco ant tasks to use to get execute Gradle tasks.</conf>
+            <conf name="androidTestAnnotationProcessor" visible="false">Classpath for the annotation processor for 'androidTest'.</conf>
+            <conf name="androidTestApk" visible="false">Classpath packaged with the compiled 'androidTest' classes.</conf>
+            <conf name="androidTestCompile" visible="false">Classpath for compiling the androidTest sources.</conf>
+            <conf name="androidTestJackPlugin" visible="false">Classpath for the 'androidTest' Jack plugins.</conf>
+            <conf name="androidTestProvided" visible="false">Classpath for only compiling the androidTest sources.</conf>
+            <conf name="androidTestWearApp" visible="false">Link to a wear app to embed for object 'androidTest'.</conf>
+            <conf name="annotationProcessor" visible="false">Classpath for the annotation processor for 'main'.</conf>
+            <conf name="apk" visible="false">Classpath packaged with the compiled 'main' classes.</conf>
+            <conf name="archives">Configuration for archive artifacts.</conf>
+            <conf name="compile" visible="false">Classpath for compiling the main sources.</conf>
+            <conf name="debugAndroidTestWearBundling">Resolved Configuration for wear app bundling for variant: debugAndroidTest</conf>
+            <conf name="debugAnnotationProcessor" visible="false">Classpath for the annotation processor for 'debug'.</conf>
+            <conf name="debugApk" visible="false">Classpath packaged with the compiled 'debug' classes.</conf>
+            <conf name="debugCompile" visible="false">Classpath for compiling the debug sources.</conf>
+            <conf name="debugJackPlugin" visible="false">Classpath for the 'debug' Jack plugins.</conf>
+            <conf name="debugProvided" visible="false">Classpath for only compiling the debug sources.</conf>
+            <conf name="debugUnitTestWearBundling">Resolved Configuration for wear app bundling for variant: debugUnitTest</conf>
+            <conf name="debugWearApp" visible="false">Link to a wear app to embed for object 'debug'.</conf>
+            <conf name="debugWearBundling">Resolved Configuration for wear app bundling for variant: debug</conf>
+            <conf name="default">Configuration for default artifacts.</conf>
+            <conf name="default-mapping">Configuration for default mapping artifacts.</conf>
+            <conf name="default-metadata">Metadata for the produced APKs.</conf>
+            <conf name="jackPlugin" visible="false">Classpath for the 'main' Jack plugins.</conf>
+            <conf name="provided" visible="false">Classpath for only compiling the main sources.</conf>
+            <conf name="releaseAnnotationProcessor" visible="false">Classpath for the annotation processor for 'release'.</conf>
+            <conf name="releaseApk" visible="false">Classpath packaged with the compiled 'release' classes.</conf>
+            <conf name="releaseCompile" visible="false">Classpath for compiling the release sources.</conf>
+            <conf name="releaseJackPlugin" visible="false">Classpath for the 'release' Jack plugins.</conf>
+            <conf name="releaseProvided" visible="false">Classpath for only compiling the release sources.</conf>
+            <conf name="releaseUnitTestWearBundling">Resolved Configuration for wear app bundling for variant: releaseUnitTest</conf>
+            <conf name="releaseWearApp" visible="false">Link to a wear app to embed for object 'release'.</conf>
+            <conf name="releaseWearBundling">Resolved Configuration for wear app bundling for variant: release</conf>
+            <conf name="testAnnotationProcessor" visible="false">Classpath for the annotation processor for 'test'.</conf>
+            <conf name="testApk" visible="false">Classpath packaged with the compiled 'test' classes.</conf>
+            <conf name="testCompile" visible="false">Classpath for compiling the test sources.</conf>
+            <conf name="testDebugAnnotationProcessor" visible="false">Classpath for the annotation processor for 'testDebug'.</conf>
+            <conf name="testDebugApk" visible="false">Classpath packaged with the compiled 'testDebug' classes.</conf>
+            <conf name="testDebugCompile" visible="false">Classpath for compiling the testDebug sources.</conf>
+            <conf name="testDebugJackPlugin" visible="false">Classpath for the 'testDebug' Jack plugins.</conf>
+            <conf name="testDebugProvided" visible="false">Classpath for only compiling the testDebug sources.</conf>
+            <conf name="testDebugWearApp" visible="false">Link to a wear app to embed for object 'testDebug'.</conf>
+            <conf name="testJackPlugin" visible="false">Classpath for the 'test' Jack plugins.</conf>
+            <conf name="testProvided" visible="false">Classpath for only compiling the test sources.</conf>
+            <conf name="testReleaseAnnotationProcessor" visible="false">Classpath for the annotation processor for 'testRelease'.</conf>
+            <conf name="testReleaseApk" visible="false">Classpath packaged with the compiled 'testRelease' classes.</conf>
+            <conf name="testReleaseCompile" visible="false">Classpath for compiling the testRelease sources.</conf>
+            <conf name="testReleaseJackPlugin" visible="false">Classpath for the 'testRelease' Jack plugins.</conf>
+            <conf name="testReleaseProvided" visible="false">Classpath for only compiling the testRelease sources.</conf>
+            <conf name="testReleaseWearApp" visible="false">Link to a wear app to embed for object 'testRelease'.</conf>
+            <conf name="testWearApp" visible="false">Link to a wear app to embed for object 'test'.</conf>
+            <conf name="wearApp" visible="false">Link to a wear app to embed for object 'main'.</conf>
+            <conf name="classpath" scriptClasspath="true" />
+          </extensions>
+        </project>
+      </sub-project>
+    </project>
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -1482,7 +1927,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="C:\Users\Nuark\Documents\GitHub\RuMineMobile" value="4455227216207" />
-        <entry key="C:\Users\minec\Documents\GitHub\RuMineMobile" value="4468415400444" />
+        <entry key="C:\Users\minec\Documents\GitHub\RuMineMobile" value="4476848217980" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1505,7 +1950,6 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.4.0-alpha6/gradle-api-2.4.0-alpha6.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.4.0-alpha6/compilerCommon-2.4.0-alpha6.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.4/asm-5.0.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.4/asm-analysis-5.0.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.jar" />
@@ -1578,7 +2022,6 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.4.0-alpha6/gradle-api-2.4.0-alpha6.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.4.0-alpha6/compilerCommon-2.4.0-alpha6.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.4/asm-5.0.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.4/asm-analysis-5.0.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.jar" />
@@ -1831,10 +2274,13 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/custom_topic_message_list.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_article.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/nuark/ruminemobile/ArticleActivity.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/lib/ImageDownloadAsyncTask.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/utils/User.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/lib/LoginInAPP.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/utils/MessagesListAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/lib/ImageDownloadAsyncTask.java" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
@@ -1843,16 +2289,6 @@
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -1869,14 +2305,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
+      <pane id="PackagesPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="RuMineMobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="RuMineMobile" />
@@ -2021,32 +2467,79 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="RuMineMobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RuMineMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RuMineMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RuMineMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="outputs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RuMineMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RuMineMobile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="outputs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="instant.run" />
     <property name="device.picker.selection" value="dc82f4ce" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -2067,6 +2560,18 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Nuark\Documents\GitHub\RuMineMobile\app\src\main\res\drawable" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Android App.app">
     <configuration default="false" name="android-async-http-1.4.9.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
@@ -2106,7 +2611,6 @@
       <option name="PM_INSTALL_OPTIONS" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
-      <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
@@ -2140,9 +2644,7 @@
         <option name="SHOW_OPTIMIZED_WARNING" value="true" />
       </Native>
       <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -2156,7 +2658,6 @@
       <option name="CLASS_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
       <option name="EXTRA_OPTIONS" value="" />
-      <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
@@ -2190,9 +2691,7 @@
         <option name="SHOW_OPTIMIZED_WARNING" value="true" />
       </Native>
       <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <method />
     </configuration>
@@ -2284,34 +2783,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="false" name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
@@ -2319,7 +2790,6 @@
       <option name="PM_INSTALL_OPTIONS" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
-      <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
@@ -2353,9 +2823,7 @@
         <option name="SHOW_OPTIMIZED_WARNING" value="true" />
       </Native>
       <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -2416,33 +2884,37 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
     <layout>
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.49092284" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.50907713" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45904437" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45904437" sideWeight="0.5060698" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.49394855" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.49394855" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4379085" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24432677" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24281392" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45904437" sideWeight="0.4939302" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2466,41 +2938,31 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="jar://C:/Android/SDK/platforms/android-25/android.jar!/android/webkit/WebView.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="152" column="16" selection-start-line="152" selection-start-column="16" selection-end-line="152" selection-end-column="16" />
+          <caret line="152" column="16" lean-forward="false" selection-start-line="152" selection-start-column="16" selection-end-line="152" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Android/SDK/platforms/android-25/android.jar!/java/lang/Enum.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-51">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Android/SDK/platforms/android-25/android.jar!/android/util/Xml.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+          <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -2509,7 +2971,7 @@
     <entry file="jar://C:/Android/SDK/platforms/android-25/android.jar!/android/util/Log.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -2524,17 +2986,6 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/forum.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_forum.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/custom_forums_list.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nuark/ruminemobile/ArticleLVAdapter.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nuark/ruminemobile/ForumLVAdapter.java" />
@@ -2550,8 +3001,7 @@
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2559,87 +3009,35 @@
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Android/SDK/sources/android-25/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
-          <caret line="2076" column="19" selection-start-line="2076" selection-start-column="19" selection-end-line="2076" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/lib/ImageDownloadAsyncTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
-          <folding />
+          <caret line="2076" column="19" lean-forward="false" selection-start-line="2076" selection-start-column="19" selection-end-line="2076" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/lib/ForumWorker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/lib/LoginInAPP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding />
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/utils/Callback.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/utils/Globals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/utils/Message.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/utils/MessagesListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-553">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/utils/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -2647,39 +3045,21 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/About.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="111" column="29" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="29" />
-          <folding />
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/MainActivityFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/SendMessageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -2687,7 +3067,92 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/UserInfoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="111" column="29" lean-forward="false" selection-start-line="111" selection-start-column="25" selection-end-line="111" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/utils/Globals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="class#DrawableCache#0;class#Globals#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/lib/LoginInAPP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109">
+          <caret line="60" column="71" lean-forward="false" selection-start-line="60" selection-start-column="71" selection-end-line="60" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/utils/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-122">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/utils/MessagesListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="83" column="10" lean-forward="false" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/lib/ImageDownloadAsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="41" column="73" lean-forward="false" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="46" lean-forward="false" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nuark/mobile/rumine/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="161" column="25" lean-forward="false" selection-start-line="161" selection-start-column="25" selection-end-line="161" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding />
         </state>
       </provider>

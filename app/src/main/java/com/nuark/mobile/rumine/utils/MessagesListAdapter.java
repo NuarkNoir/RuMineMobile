@@ -68,7 +68,9 @@ public class MessagesListAdapter extends BaseAdapter {
             @Override
             public Drawable getDrawable(String source) {
                 Log.d("NOPE", "getDrawable: " + source);
-                String src = "http://ru-minecraft.ru" + source;
+                String src;
+                if (!source.contains("ru-minecraft.ru")) src = "http://ru-minecraft.ru" + source;
+                    else src = source;
                 if (Globals.DrawableCache.getDrawableCache().containsKey(src)){
                     return Globals.DrawableCache.getDrawableCache().get(src).get();
                 } else {
@@ -79,7 +81,7 @@ public class MessagesListAdapter extends BaseAdapter {
         };
         txtMessage.setText(Html.fromHtml(messageArrayList.get(position).getText().trim(), igLoader, null));
 
-        Log.d("NOPE", "getView() called with: txtUser = [" + txtUser.getText() + "], txtMessage = [" + txtMessage.getText() + "]");
+        //Log.d("NOPE", "getView() called with: txtUser = [" + txtUser.getText() + "], txtMessage = [" + txtMessage.getText() + "]");
 
         rowView.setOnClickListener(new View.OnClickListener() {
             @Override
