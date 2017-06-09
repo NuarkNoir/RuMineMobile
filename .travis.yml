@@ -26,4 +26,4 @@ licenses:
     - '.+'
     
 script:
-    - ./gradlew assembleDebug --stacktrace    
+    - ./gradlew assembleDebug --stacktrace

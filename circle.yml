@@ -10,5 +10,6 @@ dependencies:
 
 test:
   override:
-    - ./gradlew assembleDebug
+    - chmod +x gradlew
+    - ./gradlew assembleDebug --stacktrace
     - cp -r RuMineMobile/app/build/outputs $CIRCLE_ARTIFACTS
