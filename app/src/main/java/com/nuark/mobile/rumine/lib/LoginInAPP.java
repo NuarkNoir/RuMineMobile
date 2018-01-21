@@ -1,9 +1,12 @@
 package com.nuark.mobile.rumine.lib;
 
+import android.util.Xml;
+
 import com.nuark.mobile.rumine.utils.Globals;
 import com.nuark.mobile.rumine.utils.User;
 
 import java.io.IOException;
+import java.util.HashMap;
 import java.util.Map;
 
 import org.jsoup.Connection;
@@ -32,27 +35,29 @@ public final class LoginInAPP {
     private void execute() {
         try {
             System.out.println("Начало авторизации...");
-            Connection connection1 = HttpConnection.connect(uri).ignoreHttpErrors(true).timeout(10000);
+            Connection connection1 = HttpConnection.connect(uri).followRedirects(true).ignoreHttpErrors(true).timeout(10000);
             Connection.Response response1 = connection1.execute();
+            System.out.println("Cookies: " + response1.cookies());
             System.out.println("Первый этап авторизации пройден...");
 
-            Connection connection2 = connection1.url(uri).cookies(response1.cookies()).ignoreHttpErrors(true)
+            connection1 = connection1.url(uri).ignoreHttpErrors(true)
                     .data("login_name", login)
                     .data("login_password", pass)
                     .data("login", "submit")
-                    .method(Connection.Method.POST).followRedirects(true).timeout(10000);
-            Connection.Response response2 = connection2.execute();
+                    .method(Connection.Method.POST).followRedirects(true).cookies(response1.cookies()).timeout(10000);
+            Connection.Response response2 = connection1.execute();
+            System.out.println("Cookies: " + response2.cookies());
             System.out.println("Второй этап авторизации пройден, отправлены данные...");
 
-            Connection connection3 = HttpConnection.connect(uri).cookies(response2.cookies()).ignoreHttpErrors(true).timeout(10000);
-            Connection.Response response3 = connection3.execute();
+            connection1 = connection1.followRedirects(true).cookies(response2.cookies()).ignoreHttpErrors(true).timeout(10000);
+            Connection.Response response3 = connection1.execute();
+            System.out.println("Cookies: " + response3.cookies());
             Document d = response3.parse();
-            System.out.println(response3.cookies());
             String isloged = d.select(".loginname a").text();
             System.out.println("Третий этап авторизации пройден.");
             System.out.println(isloged);
 
-            if (d.select(".loginname a").hasText()) {
+            if (isloged.length() > 0) {
                 System.out.println("Авторизация прошла успешно!");
                 isLogedIn = true;
                 cookies = response2.cookies();
@@ -63,25 +68,11 @@ public final class LoginInAPP {
                 Connection.Response response4 = connection4.execute();
                 parse(response4.parse());
                 Globals.CurrentUser.setCurrentUser(new User(
-                        nick,
-                        login,
-                        pass,
-                        avatar,
-                        link,
-                        rep_plus,
-                        rep_minus,
-                        rep_averrage,
-                        crm_joint,
-                        crm_act,
-                        crm_rep,
-                        crm_news,
-                        comm_rating,
+                        nick, login, pass, avatar, link,
+                        rep_plus, rep_minus, rep_averrage,
+                        crm_joint, crm_act, crm_rep, crm_news, comm_rating,
                         userGroup,
-                        cnt_news,
-                        cnt_topics,
-                        cnt_messages,
-                        cnt_comments,
-                        cnt_likes,
+                        cnt_news, cnt_topics, cnt_messages, cnt_comments, cnt_likes,
                         cookies
                 ));
             } else {

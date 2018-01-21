@@ -46,19 +46,19 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mSettings = getSharedPreferences(APP_PREFERENCES, Context.MODE_PRIVATE);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         cont = getApplicationContext();
 
-        FloatingActionMenu fam = (FloatingActionMenu) findViewById(R.id.fam);
-        fab_login = (FloatingActionButton) findViewById(R.id.mi_login);
-        fab_user = (FloatingActionButton) findViewById(R.id.mi_user);
-        fab_message = (FloatingActionButton) findViewById(R.id.mi_sendmessage);
-        fab_bugreport = (FloatingActionButton) findViewById(R.id.mi_sendugreport);
-        lv_messagesList = (ListView) findViewById(R.id.lv_messagesList);
+        FloatingActionMenu fam = findViewById(R.id.fam);
+        fab_login = findViewById(R.id.mi_login);
+        fab_user = findViewById(R.id.mi_user);
+        fab_message = findViewById(R.id.mi_sendmessage);
+        fab_bugreport = findViewById(R.id.mi_sendugreport);
+        lv_messagesList = findViewById(R.id.lv_messagesList);
         lv_messagesList.setAdapter(mla);
-        srl_load = (SwipeRefreshLayout) findViewById(R.id.srl_load);
+        srl_load = findViewById(R.id.srl_load);
         srl_load.setOnRefreshListener(this);
         srl_load.setColorSchemeColors(Color.RED, Color.GREEN, Color.BLUE, Color.YELLOW);
 
@@ -74,7 +74,6 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }

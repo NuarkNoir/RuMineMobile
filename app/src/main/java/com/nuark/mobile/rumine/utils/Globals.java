@@ -15,7 +15,7 @@ import java.util.WeakHashMap;
 
 public class Globals {
 
-    public static String getBaseUrl(){ return "http://ru-minecraft.ru/forum/"; }
+    public static String getBaseUrl(){ return "https://ru-minecraft.ru/forum/"; }
 
     public static class CurrentUser{
         static User CurrentUser;

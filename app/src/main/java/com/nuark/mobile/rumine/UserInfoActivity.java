@@ -27,22 +27,22 @@ public class UserInfoActivity extends AppCompatActivity {
             System.out.println("Something");
         }
 
-        iv_avatar = (ImageView) findViewById(R.id.iv_user_avatar);
-        tv_nick = (TextView) findViewById(R.id.tv_nick);
-        tv_group = (TextView) findViewById(R.id.tv_group);
-        tv_reputation_plus = (TextView) findViewById(R.id.tv_reputation_plus);
-        tv_reputation_minus = (TextView) findViewById(R.id.tv_reputation_minus);
-        tv_reputation_total = (TextView) findViewById(R.id.tv_reputation_total);
-        tv_carma_joint = (TextView) findViewById(R.id.tv_carma_joint);
-        tv_carma_news = (TextView) findViewById(R.id.tv_carma_news);
-        tv_carma_reputation = (TextView) findViewById(R.id.tv_carma_reputation);
-        tv_carma_activity = (TextView) findViewById(R.id.tv_carma_activity);
-        tv_comm_rating = (TextView) findViewById(R.id.tv_comm_rating);
-        tv_a_news = (TextView) findViewById(R.id.tv_a_news);
-        tv_a_topics = (TextView) findViewById(R.id.tv_a_topics);
-        tv_a_messages = (TextView) findViewById(R.id.tv_a_messages);
-        tv_a_comments = (TextView) findViewById(R.id.tv_a_comments);
-        tv_a_likes = (TextView) findViewById(R.id.tv_a_likes);
+        iv_avatar = findViewById(R.id.iv_user_avatar);
+        tv_nick = findViewById(R.id.tv_nick);
+        tv_group = findViewById(R.id.tv_group);
+        tv_reputation_plus = findViewById(R.id.tv_reputation_plus);
+        tv_reputation_minus = findViewById(R.id.tv_reputation_minus);
+        tv_reputation_total = findViewById(R.id.tv_reputation_total);
+        tv_carma_joint = findViewById(R.id.tv_carma_joint);
+        tv_carma_news = findViewById(R.id.tv_carma_news);
+        tv_carma_reputation = findViewById(R.id.tv_carma_reputation);
+        tv_carma_activity = findViewById(R.id.tv_carma_activity);
+        tv_comm_rating = findViewById(R.id.tv_comm_rating);
+        tv_a_news = findViewById(R.id.tv_a_news);
+        tv_a_topics = findViewById(R.id.tv_a_topics);
+        tv_a_messages = findViewById(R.id.tv_a_messages);
+        tv_a_comments = findViewById(R.id.tv_a_comments);
+        tv_a_likes = findViewById(R.id.tv_a_likes);
 
         if (u != null) {
             Glide.with(this).load(u.getAvatar()).into(iv_avatar);

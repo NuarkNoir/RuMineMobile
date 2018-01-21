@@ -56,9 +56,9 @@ public class MessagesListAdapter extends BaseAdapter {
         View rowView = inflater.inflate(R.layout.messageitem, null, true);
         Log.d("NOPE", "42::INFLATED CUSTOM LAYOUT");
 
-        final TextView txtUser = (TextView) rowView.findViewById(R.id.txtUser);
-        TextView txtDate = (TextView) rowView.findViewById(R.id.txtDate);
-        final TextView txtMessage = (TextView) rowView.findViewById(R.id.txtMessage);
+        final TextView txtUser = rowView.findViewById(R.id.txtUser);
+        TextView txtDate = rowView.findViewById(R.id.txtDate);
+        final TextView txtMessage = rowView.findViewById(R.id.txtMessage);
 
         txtUser.setText(messageArrayList.get(position).getUser());
         txtDate.setText(messageArrayList.get(position).getDate());
@@ -69,7 +69,7 @@ public class MessagesListAdapter extends BaseAdapter {
             public Drawable getDrawable(String source) {
                 Log.d("NOPE", "getDrawable: " + source);
                 String src;
-                if (!source.contains("ru-minecraft.ru")) src = "http://ru-minecraft.ru" + source;
+                if (!source.contains("ru-minecraft.ru")) src = "https://ru-minecraft.ru" + source;
                     else src = source;
                 if (Globals.DrawableCache.getDrawableCache().containsKey(src)){
                     return Globals.DrawableCache.getDrawableCache().get(src).get();
@@ -80,16 +80,11 @@ public class MessagesListAdapter extends BaseAdapter {
             }
         };
         txtMessage.setText(Html.fromHtml(messageArrayList.get(position).getText().trim(), igLoader, null));
-
-        //Log.d("NOPE", "getView() called with: txtUser = [" + txtUser.getText() + "], txtMessage = [" + txtMessage.getText() + "]");
-
         rowView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (Globals.CurrentUser.getCurrentUser() != null){
                     context.startActivity(new Intent(context, SendMessageActivity.class).putExtra("TOUSER", "[b]" + messageArrayList.get(position).getUser() + ",[/b]\n"));
-                } else {
-                    Toast.makeText(context, "Сначала авторизируйтесь", Toast.LENGTH_SHORT).show();
                 }
             }
         });

@@ -36,9 +36,9 @@ public class SendMessageActivity extends AppCompatActivity {
 
         backup_msg = new ArrayList<>();
 
-        pb_sending = (ProgressBar) findViewById(R.id.pb_sending);
-        btn_send_message = (Button) findViewById(R.id.btn_send_message);
-        et_message = (EditText) findViewById(R.id.et_message);
+        pb_sending = findViewById(R.id.pb_sending);
+        btn_send_message = findViewById(R.id.btn_send_message);
+        et_message = findViewById(R.id.et_message);
         btn_send_message.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

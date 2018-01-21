@@ -25,7 +25,7 @@ public class ForumWorker {
         public static String status = "";
 
         public static boolean sendMessage(String message, String topicId, Map<String, String> cookies) throws IOException {
-            String url = "http://ru-minecraft.ru/index.php?do=forum&action=newpost&id=" + topicId + "&param=post";
+            String url = "https://ru-minecraft.ru/index.php?do=forum&action=newpost&id=" + topicId + "&param=post";
             Connection conn = HttpConnection.connect(url).cookies(cookies)
                     .data("text_msg", message)
                     .data("topic_id", topicId)

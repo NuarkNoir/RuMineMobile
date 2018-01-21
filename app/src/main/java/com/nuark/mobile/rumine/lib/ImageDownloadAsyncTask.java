@@ -39,7 +39,7 @@ public class ImageDownloadAsyncTask extends AsyncTask<Void, Void, Void> {
             try {
                 //Скачиваем картинку в наш кэш
                 System.out.println("Loading " + source);
-                if (!source.contains("http:")) source = "http:" + source;
+                if (!source.contains("https:")) source = "https:" + source;
                 URL url = new URL(source);
                 URLConnection connection = url.openConnection();
                 InputStream is = connection.getInputStream();
